@@ -10,3 +10,6 @@ insecure
 xamfoo:reactive-obj
 underscore
 tracker
+peerlibrary:blaze-components
+stylus
+mongo

@@ -1,0 +1,21 @@
+<body>
+
+{{>TreeViewDemo}}
+
+</body>
+
+
+<template name="TreeViewDemo">
+
+    <div class="container">
+      <h1>MongoDB Tree View</h1>
+              <br>
+              <br>
+        <ul>
+        {{#each getCategories}}
+          <li>name: {{name}}, <small>parent</small>: <i>{{parent}}</i></li>
+        {{/each}}
+        </ul>
+    </div>
+
+</template>

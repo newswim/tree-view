@@ -1,0 +1,370 @@
+
+/* 1 */
+{
+    "_id" : "appletv",
+    "name" : "appletv",
+    "driverKlass" : "c4-dvd",
+    "type" : "dvd",
+    "templates" : {},
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 2 */
+{
+    "_id" : "mega-led",
+    "name" : "mega-led",
+    "type" : "led",
+    "driverKlass" : "mega-enlighten-led",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasInfiniteColors" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 3 */
+{
+    "_id" : "LG-32LC3R",
+    "name" : "LG-32LC3R",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 4 */
+{
+    "_id" : "c4-lg-32ln5700",
+    "name" : "c4-lg-32ln5700",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 5 */
+{
+    "_id" : "directv-satellite",
+    "name" : "directv-satellite",
+    "type" : "satellite",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "driverKlass" : "directv-satellite",
+    "isBuiltIn" : false
+}
+
+/* 6 */
+{
+    "_id" : "c4-sharp-lc-70le650u",
+    "name" : "c4-sharp-lc-70le650u",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 7 */
+{
+    "_id" : "c4-key-digital-kd-4x2cs-ir",
+    "name" : "c4-key-digital-kd-4x2cs-ir",
+    "type" : "switch",
+    "driverKlass" : "c4-switch",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 8 */
+{
+    "_id" : "c4-macro",
+    "name" : "c4-macro",
+    "type" : "macro",
+    "control4MacroId" : 403,
+    "driverKlass" : "c4-macro",
+    "isBuiltIn" : false
+}
+
+/* 9 */
+{
+    "_id" : "Samsung-UN65F7100AF",
+    "driverKlass" : "c4-television",
+    "name" : "Samsung-UN65F7100AF",
+    "type" : "television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 10 */
+{
+    "_id" : "speaker",
+    "name" : "speaker",
+    "type" : "speaker",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "driverKlass" : "speaker",
+    "isBuiltIn" : false
+}
+
+/* 11 */
+{
+    "_id" : "c4-Key-Digital-AVSwitch-IR",
+    "name" : "c4-Key-Digital-AVSwitch-IR",
+    "type" : "switch",
+    "driverKlass" : "c4-switch",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 12 */
+{
+    "_id" : "LG-42LE7300",
+    "name" : "LG-42LE7300",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 13 */
+{
+    "_id" : "LG-50PC1DRA",
+    "name" : "LG-50PC1DRA",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 14 */
+{
+    "_id" : "source",
+    "name" : "source",
+    "type" : "source",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "driverKlass" : "source",
+    "isBuiltIn" : false
+}
+
+/* 15 */
+{
+    "_id" : "driver",
+    "name" : "driver",
+    "type" : "source",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "driverKlass" : "driver",
+    "isBuiltIn" : false
+}
+
+/* 16 */
+{
+    "_id" : "c4-satellite",
+    "name" : "c4-satellite",
+    "type" : "satellite",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "driverKlass" : "c4-satellite",
+    "isBuiltIn" : false
+}
+
+/* 17 */
+{
+    "_id" : "aavara-pb5000",
+    "name" : "aavara-pb5000",
+    "type" : "switch",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "driverKlass" : "aavara-pb5000",
+    "isBuiltIn" : false
+}
+
+/* 18 */
+{
+    "_id" : "c4-videostorm-cmx3838a2-ip",
+    "driverKlass" : "c4-amplifier",
+    "name" : "c4-videostorm-cmx3838a2-ip",
+    "type" : "amplifier",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 19 */
+{
+    "_id" : "macro",
+    "name" : "macro",
+    "type" : "macro",
+    "driverKlass" : "macro",
+    "isBuiltIn" : false
+}
+
+/* 20 */
+{
+    "_id" : "c4-cd",
+    "name" : "c4-cd",
+    "type" : "cd",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "driverKlass" : "c4-cd",
+    "isBuiltIn" : false
+}
+
+/* 21 */
+{
+    "_id" : "c4-dvd",
+    "name" : "c4-dvd",
+    "type" : "dvd",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "driverKlass" : "c4-dvd",
+    "isBuiltIn" : false
+}
+
+/* 22 */
+{
+    "_id" : "Aavara PB7000",
+    "name" : "Aavara PB7000",
+    "type" : "switch",
+    "driverKlass" : "c4-switch",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 23 */
+{
+    "_id" : "LG 32\" BAY TV [IR]",
+    "name" : "LG 32\" BAY TV [IR]",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 24 */
+{
+    "_id" : "LG 42LD550",
+    "name" : "LG 42LD550",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 25 */
+{
+    "_id" : "LG 55LS4600",
+    "name" : "LG 55LS4600",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 26 */
+{
+    "_id" : "LG 55LS4600 [IR]",
+    "name" : "LG 55LS4600 [IR]",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 27 */
+{
+    "_id" : "Samsung UN22C4010",
+    "name" : "Samsung UN22C4010",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 28 */
+{
+    "_id" : "Samsung UN22D5000NF [IR]",
+    "name" : "Samsung UN22D5000NF [IR]",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 29 */
+{
+    "_id" : "Samsung UN22D5003BD",
+    "name" : "Samsung UN22D5003BD",
+    "type" : "television",
+    "driverKlass" : "c4-television",
+    "capabilities" : {
+        "hasDiscretePower" : true,
+        "hasDiscreteInputs" : true
+    },
+    "isBuiltIn" : false
+}
+
+/* 30 */
+{
+    "_id" : "Video Storm CMX3838A2 (38x38 AV mode, v2.5) [IP]",
+    "name" : "Video Storm CMX3838A2 (38x38 AV mode, v2.5) [IP]",
+    "type" : "amplifier",
+    "driverKlass" : "c4-amplifier",
+    "capabilities" : {
+        "hasDiscretePower" : true
+    },
+    "isBuiltIn" : false
+}
