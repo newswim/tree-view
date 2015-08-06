@@ -13,3 +13,6 @@ tracker
 peerlibrary:blaze-components
 stylus
 mongo
+mrt:isolate-value
+session
+reactive-var

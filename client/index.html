@@ -1,21 +1,55 @@
 <body>
+  <div class="container">
+    <h1>MongoDB Tree View</h1>
+            <br>
+            <br>
+          {{>mwCategories}}
 
-{{>TreeViewDemo}}
-
+  </div>
 </body>
 
+<template name="mwCategories">
+    {{#if categoriesExist}}
+        <h2>Subcategories</h2>
+        <ol>
+            {{> mwCategories_cats}}
+        </ol>
+    {{/if}}
 
-<template name="TreeViewDemo">
+    {{#if pagesExist}}
+        <h2>Pages in category "{{formatPageName categoryName}}"</h2>
+        <ol>
+            {{> mwCategories_pages}}
+        </ol>
+    {{/if}}
+</template>
 
-    <div class="container">
-      <h1>MongoDB Tree View</h1>
-              <br>
-              <br>
-        <ul>
-        {{#each getCategories}}
-          <li>name: {{name}}, <small>parent</small>: <i>{{parent}}</i></li>
-        {{/each}}
-        </ul>
-    </div>
+<template name="mwCategories_cats">
+    {{#each categories}}
+        <li><span class="catOpen">[<b>{{#if isOpen}}-{{else}}+{{/if}}</b>]</span>
+            <a class="internal-link" data-link="read" data-name="{{name}}"
+            href="/read/{{name}}">{{formatCategoryName name}}</a>
+            {{#if isOpen}}
+                {{#if isReady}}
+                    {{#if hasChildren}}
+                        <ol>
+                            {{> mwCategories_cats}}
+                            {{> mwCategories_pages}}
+                        </ol>
+                    {{else}}
+                        <br />No pages or subcategories
+                    {{/if}}
+                {{else}}
+                    <span class="loading"></span>
+                {{/if}}
+            {{/if}}
+        </li>
+    {{/each}}
+</template>
 
+<template name="mwCategories_pages">
+    {{#each pages}}
+        <li><a class="internal-link" data-link="read" data-name="{{name}}"
+        href="/read/{{name}}">{{formatPageName name}}</a></li>
+    {{/each}}
 </template>
