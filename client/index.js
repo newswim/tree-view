@@ -11,8 +11,12 @@ var TreeViewDemo = BlazeComponent.extendComponent(
                 // 'click': this.onClicked,
             }];
         },
-        getCategories: function(){
+        allCategories: function() {
           return Categories.find();
+        },
+        hasChildren: function() {
+          me = this;
+          return Categories.findOne({id: me._id, child: { $exists: true }});
         }
     }
 ).register('TreeViewDemo');
